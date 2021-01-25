@@ -1,0 +1,53 @@
+html body { 
+    background-color: #343a40 !important;
+    /* background-image: url("../images/main_back.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.baseDiv {
+    color: #ffffff;
+}
+
+/* html body { 
+    background-color: black !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navDiv a {
+    color: grey;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+button {
+    /* padding-top: 100px; 
+    padding: 100px;
+}
+
+
+.navbarMain {
+    margin: 100px;
+    background-color: rgb(35, 35, 35, 0.75);
+    border: 5px solid black;
+}
+
+
+.termsContent {
+    margin: 100px;
+    background-color: rgb(35, 35, 35, 0.75);
+    border: 5px solid black;
+    font-weight: bold;
+    color: white;
+    background-image: url("../images/huokan1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block head %}
+{{super()}}
+<link rel="stylesheet" type="text/css" href="static/css/base.css">
+<!-- <link rel="stylesheet" type="text/css" href="static/css/results.css"> -->
+
+{% endblock %}
+
+{% block app_content %}
+<div class="container text-white baseDiv">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Artist</th>
+                <th>Song</th>
+                <th>Lyrics</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">{{artist}}</td>
+                <td>{{song}}</td>
+                <td>{{lyrics}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

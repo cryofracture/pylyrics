@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+<div class="container text-white baseDiv">
+    <form method="POST" action="{{url_for('results')}}">
+        <div class="form-group">
+          <label for="artistName">Artist Name</label>
+          <input type="text" class="form-control artistName" id="artistName" placeholder="e.g. Coldplay" name="artistName">
+          <small id="artistHelp" class="form-text text-muted">Just type the band name, don't worry about spaces!</small>
+        </div>
+        <div class="form-group">
+          <label for="songName">Song Name</label>
+          <input type="text" class="form-control songName" id="songName" placeholder="Yellow" name="songName">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+{% endblock %}
